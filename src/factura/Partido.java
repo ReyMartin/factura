@@ -9,13 +9,9 @@ package factura;
  *
  * @author alumno
  */
-public class Cliente {
+public class Partido {
     private String nombre;
-    private String apellido;
-    private Integer dni;
-    private String calle;
-    private Integer altura;
-    private Localidad localidad;
+    private Provincia provincia;
 
     public String getNombre() {
         return nombre;
@@ -24,6 +20,12 @@ public class Cliente {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
-    
+
+    public Provincia getProvincia() {
+        return provincia;
+    }
+
+    public void setProvincia(Provincia provincia) {
+        this.provincia = provincia;
+    }
 }
